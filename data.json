@@ -7,46 +7,55 @@
     {
     "object1": "20",
     "object2": "#ff7f54",
+    "object3": "#ffedf2",
     "words": "Shiny Data"
   },
     {
     "object1": "33",
     "object2": "#947ceb",
+    "object3": "#ffedf2",
     "words": "Whoa"
   },
     {
     "object1": "27",
     "object2": "#b06da9",
+    "object3": "#ffedf2",
     "words": "Cool beans"
   },
     {
     "object1": "18",
     "object2": "#9adadb",
+    "object3": "#ffedf2",
     "words": "Yabba-Dabba-Do"
   },
     {
     "object1": "28",
     "object2": "#54a7de",
+    "object3": "#ffedf2",
     "words": "Plus, look at this!"
   },
     {
     "object1": "15",
     "object2": "#fabbbb",
+    "object3": "#ffedf2",
     "words": "BOOM!"
   },
     {
     "object1": "7",
     "object2": "#ff8a63",
+    "object3": "#ffedf2",
     "words": "It's so Sparkley"
   },
     {
     "object1": "12",
     "object2": "#bad9e3",
+    "object3": "#ffedf2",
     "words": "LOUD NOISES"
   },
     {
     "object1": "30",
     "object2": "#cc96eb",
+    "object3": "#ffedf2",
     "words": "Tah-DAAAAAAh"
   }
 ]

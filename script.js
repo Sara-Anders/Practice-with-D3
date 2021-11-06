@@ -28,19 +28,28 @@ d3.json('data.json').then(
       return b.object2;
     })
       .attr("y", 0)
-      .attr("width", 15)
+      .attr("width", 25)
       .attr("x", function (b, i) {
-        return i * 25;
+        return i * 35;
       })
 
       .attr("height", function (b) {
-        return b.object1 * 15;
+        return b.object1 * 20;
       })
 
       .attr("data-obj1", function (b) {
         return b.words;
       })
       .on("click", barClick);
+
+      //hover change color
+
+      attr("data-obj3", function (b) {
+        return b.object3;
+      })
+      .on("mouseover", barHover);
+
+      
 
   }
 );
@@ -49,9 +58,17 @@ d3.json('data.json').then(
 //function runs when user clicks rect in graph from d3 svg
 function barClick(d3clickObject) {
 
-  document.getElementById("message").innerHTML = d3clickObject.target.dataset.obj1;
+  document.getElementById("button1").innerHTML = d3clickObject.target.dataset.obj1;
 }
 
+//hover change color
 
+function barHover(d3HoverObject) {
+
+  d3.select(this)
+  .style("data-obj3", "#ffedf2");
+}
+
+ 
 graph(b);
 barClick();

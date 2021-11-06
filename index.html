@@ -4,23 +4,72 @@
      and create any other files, if any, required for the assignment.
      When you are done, be certain to submit the assignment in both Repl.it and Canvas to be graded. -->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>CS50C Week12</title>
-    <!-- load d3-->
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-<style>
-#message{
-  
-}
-</style>
 
-  </head>
-  <body>
-    
-    <p id= "message" >Welcome to my chart!</p>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CS50C Week12</title>
+	<!-- load d3-->
+	<script src="https://d3js.org/d3.v6.min.js">
 
-    <script src="script.js"></script>
-  </body>
+	</script>
+	<!--google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+	<style>
+		#button1 {
+			background-color: #4c99b0;
+			border: none;
+			color: white;
+			padding: 10px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 20px;
+			margin: auto;
+			transition-duration: 0.4s;
+			cursor: pointer;
+			font-family: 'Nanum Gothic Coding', monospace;
+			border-radius: 12px;
+		}
+
+		#button1:hover {
+			background-color: #9eddf0;
+			color: black;
+		}
+
+	
+
+    .header {
+  padding: 60px;
+  text-align: center;
+  background: #485f66;
+  color: white;
+  font-size: 30px;
+  border-radius: 12px;
+  font-family: 'Nanum Gothic Coding', monospace;
+            }
+	</style>
+
+</head>
+
+<body>
+	<div class="header">
+  <h1>D3 Data Graph Assignment</h1>
+  <p>Generated with Random Numbers</p>
+</div>
+
+<br>
+
+
+	<p id="button1">click On graph bar</p>
+
+	<p id="message"></p>
+
+	<script src="script.js">
+
+	</script>
+</body>
+
 </html>
